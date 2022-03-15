@@ -73,8 +73,8 @@ submit.addEventListener('click', () => {
     const checkedanswer = getCheckedAnswer()
     console.log(checkedanswer);
 
-    if(checkedanswer ===quizDB[questioncount].ans){
-        score++
+    if(checkedanswer === quizDB[questioncount].ans){
+        score++;
     };
     questioncount++;
 
@@ -88,7 +88,8 @@ submit.addEventListener('click', () => {
         <h3> you scored ${score}/${quizDB.length}</h3>
         <button class="btn" onclick="location.reload()"> play again</button>
         `;
-    };
-     showscore.classList.remove(showscore);
+    // };
+     showscore.classList.remove('scorearea');
+    }
 
-})
+});

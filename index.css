@@ -56,9 +56,11 @@ input{
     box-shadow: 0 1rem 1rem rgba(0,0,0,0.4);
 
 }
-/* .scorearea{
-    display: none; */
-/* } */
+  .scorearea{
+    display: none; 
+
+ } 
+
 
 .btn{
     padding: 0.5rem 1rem;
